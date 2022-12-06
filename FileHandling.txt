@@ -1,0 +1,21 @@
+import java.io.*;
+class FileHAndling{
+
+public static void main(String[]args){
+
+File f1 = new File("java2.text");
+
+try{
+f1.CreateNewFile();
+System.out.println("File Created");
+}
+catch(IOException io){
+
+io.printStackTrace();
+
+}
+
+
+}
+
+}
